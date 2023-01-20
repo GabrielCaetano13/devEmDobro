@@ -8,6 +8,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/styles.css">
+        <link rel="stylesheet" href="./src/css/responsive.css">
         <title>Super Mario Bros - O Filme</title>
     </head>
     <body>
@@ -22,8 +25,8 @@
             </a>
             <nav>
                 <ul class="navigation">
-                    <li>Home</li>
-                    <li>Detalhes</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Detalhes</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,11 +34,17 @@
             <div class="information">
                 <img class="image-title"src="./src/images/titulo.png" alt="imagem do título do filme">
                 <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eos earum doloribus esse, inventore minus necessitatibus nobis. Dolor, iure quisquam, consequatur magnam nulla harum tempore recusandae placeat eaque id culpa!
+                    Mario é uma encanador junto com seu irmão Luigi, um dia, eles vão para no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares
                 </p>
                 <button class="button-trailer">Veja o trailer</button>
             </div>
             <img class="mario" src="./src/images/super-mario-chars.png" alt="mario e outros personagens">
+            <div class="modal">
+                <div class="close-modal">
+                    <span class="close-modal">X</span>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer Oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
         </main>
     </body>
 </html>
